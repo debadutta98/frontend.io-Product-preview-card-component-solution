@@ -18,13 +18,12 @@ module.exports = {
       },
       width:{
         "45":"45%",
-        "40":"40%",
         "100":"30rem",
         "110":"32rem"
       },
       content:{
-        mobile:'url("/images/image-product-mobile.jpg")',
-        desktop:'url("/images/image-product-desktop.jpg")'
+        mobile:'url("/frontend.io-Product-preview-card-component-solution/images/image-product-mobile.jpg")',
+        desktop:'url("/frontend.io-Product-preview-card-component-solution/images/image-product-desktop.jpg")'
       }
     },
   },

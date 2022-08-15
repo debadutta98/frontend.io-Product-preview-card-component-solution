@@ -7,5 +7,9 @@
     @apply flex rounded-xl shadow-md flex-col sm:flex-row w-72 sm:w-110 bg-slate-50 flex-wrap
 }
 .img{
-    @apply rounded-t-lg sm:rounded-l-lg sm:rounded-t-none h-full content-mobile sm:content-desktop
+    @apply rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none h-full content-mobile sm:content-desktop
+}
+.btn
+{
+    @apply inline-flex shadow-lg bg-btncol rounded-md py-3 w-full justify-center leading-4 hover:shadow-inner
 }
