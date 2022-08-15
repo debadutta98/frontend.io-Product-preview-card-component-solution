@@ -18,10 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [solution](https://github.com/debadutta98/frontend.io-Product-preview-card-component-solution)
+- Live Site URL: [livesite](https://debadutta98.github.io/frontend.io-Product-preview-card-component-solution/)
 
 ### Built with
 
@@ -32,6 +30,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- github - [Debadutta Panda](https://github.com/debadutta98)
+- Frontend Mentor - [@debadutta98](https://www.frontendmentor.io/profile/debadutta98)

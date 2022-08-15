@@ -742,7 +742,7 @@ video {
   height: 100%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  --tw-content: url("/images/image-product-mobile.jpg");
+  --tw-content: url("../images/image-product-mobile.jpg");
   content: var(--tw-content);
 }
 
@@ -752,7 +752,7 @@ video {
     border-bottom-left-radius: 0.5rem;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    --tw-content: url("/images/image-product-desktop.jpg");
+    --tw-content: url("../images/image-product-desktop.jpg");
     content: var(--tw-content);
   }
 
