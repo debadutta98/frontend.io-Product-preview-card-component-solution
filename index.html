@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-back">
+    <main class="flex justify-center pt-12">
+      <div class="card">
+        <div class="w-full sm:w-45">
+          <img
+            class="img"
+          />
+        </div>
+        <div class="flex flex-col w-full sm:w-1/2 p-7">
+          <div>
+            <span class="font-mid text-xs tracking-wide pl-1">P E R F U M E</span>
+          </div>
+          <div class="py-5">
+            <h1 class="font-bold font-heading text-2xl leading-6 flex flex-wrap">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+          </div>
+          <div class="pb-5">
+            <p class="font-small font-light text-xs leading-5">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+          <div class="flex flex-wrap pb-7">
+            <span class="font-bold font-num text-3xl text-leafcolor"> $149.99 </span>
+            <s class="font-bold font-num text-xs px-4 py-2">$169.99</s>
+          </div>
+          <div class="w-auto">
+            <button
+              class="inline-flex shadow-lg bg-btncol rounded-md py-3 w-full justify-center leading-4"
+            >
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                  fill="#FFF"
+                />
+              </svg>
+              <span class="text-white">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution pt-4">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/debadutta98">Debadutta Panda</a>.
+    </div>
+  </body>
+</html>
